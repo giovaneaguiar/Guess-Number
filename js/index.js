@@ -25,6 +25,16 @@ function updateAttempt(attempt, value){
 };
 
 function handleSubmit(e) {
+      e.preventDefault();
+      //Comando para não recarregar a página quando enviar o formulário
+      let kick = document.getElementById('kick').value;
+      if(!kick){
+      //Se eu não tiver um chute, não deixar o usuário continuar e manda um alerta.
+      alert('Digite algum valor!');
+      return;
+      };
+
+      updateAttempt(attempt, ++Guess.attemptsNumber);
 
 };
 
