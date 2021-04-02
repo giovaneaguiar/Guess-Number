@@ -100,3 +100,27 @@ header h1 {
   color: var(--purple);
   background: var(--white);
 }
+
+/* Section ============ */
+
+.container .result-box {
+    margin-top: 5%;
+    background: var(--white);
+    width: 40%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    color: var(--purple);
+}
+
+.container .result-box h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 5% 0%;
+}
+
+.container .result-box span {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
