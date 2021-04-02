@@ -102,7 +102,6 @@ header h1 {
 }
 
 /* Section ============ */
-
 .container .result-box {
     margin-top: 5%;
     background: var(--white);
@@ -122,5 +121,26 @@ header h1 {
 .container .result-box span {
     font-size: 1.3rem;
     font-weight: 300;
+}
+
+/* Botão Jogar de novo ============ */
+.container #btn-Restart {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    background: var(--white);
+    color: var(--purple);
+    padding: 1rem;
+    margin-top: 3%;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease-in-out;
+    display: none;
+}
+
+.container #btn-Restart:hover {
+    background: var(--purple);
+    color: var(--white);
 }
 
