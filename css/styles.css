@@ -144,3 +144,14 @@ header h1 {
     color: var(--white);
 }
 
+footer {
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    color: var(--purple);
+    font-size: 1rem;
+    font-weight: 300;
+}
