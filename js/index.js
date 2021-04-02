@@ -15,7 +15,14 @@ const Guess = {
         return Math.round(Math.random()*this.max);
     }
 
-}
+};
+
+let numberDrawn = Guess.numberDrawn();
+
+function updateAttempt(attempt, value){
+    attempt.innerHTML = 'Tentativa: ' + value
+
+};
 
 function handleSubmit(e) {
 
